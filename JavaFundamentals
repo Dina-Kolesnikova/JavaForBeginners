@@ -1,0 +1,26 @@
+package chapter2;
+
+public class HomeWorkLesson1 {
+    public static void main(String arg[]){
+    
+        //Ask a user for a season of the year
+        
+        System.out.println("What a season of year now?");
+        Scanner scanner = new Scanner(System.in);
+        String season = scanner.next();
+
+        // then a whole number, then an adjective.
+        
+        System.out.println("Enter a whole number");
+        int wholeNumber = scanner.nextInt();
+
+        System.out.println("Enter an adjective");
+        String adjective = scanner.next();
+
+        // And use the input to complete the sentence below. Output the result.
+
+        System.out.println("On an " + adjective + " " + season + " " + "day, I drink a minimum of"
+                + " " + wholeNumber + " " + "cups of coffe.");
+
+    }
+}
